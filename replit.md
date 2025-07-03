@@ -112,6 +112,8 @@ Changelog:
   - Created vite-env.d.ts and server-types.d.ts for build compatibility
   - Fixed Vercel deployment redirect issue by correcting distDir path
   - Updated vercel.json to serve from dist/public instead of dist
+  - Fixed JavaScript loading issue by configuring relative paths (base: './')
+  - Added proper asset routing in vercel.json for JS/CSS files
   - Website successfully building and deploying to production
 - July 03, 2025. Added PostgreSQL database integration
   - Created database connection with Drizzle ORM
